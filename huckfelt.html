@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>January 16 Show</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Arvo", serif; color: white;}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(images/davidicon.webp);
+  min-height: 100%;
+  background-color: black;
+}
+.blink-border {
+  border: 3px dotted gold;          /* initial gold dotted border */
+  border-radius: 8px;                /* optional rounded corners */
+  animation: blink-border 2.5s infinite;
+  padding: 5px;                       /* adjust as needed */
+}
+
+/* Only the border “blinks” by changing color */
+@keyframes blink-border {
+  0%, 50%, 100% {
+    border-color: gold;
+  }
+  25%, 75% {
+    border-color: transparent; /* border disappears temporarily */
+  }
+}
+
+</style>
+</head>
+<body style="background-color: black;">
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+
+
+  <!-- Header -->
+  <i onclick="location.href='shows.html'" class="fa fa-arrow-left w3-left w3-large"></i>
+  <header class="w3-container w3-center blink-border" style="padding:50px 10px 0px 10;max-width: 350px;margin: auto;margin-top: 60px;" id="home">
+    <h1 style="margin-bottom: 0px;font-size: 30px;">Folk Forum</h1>
+    <p style="margin-top: 0px; margin-bottom: 15px;">Presents:</p>
+    <p style="margin-top: 0px;" class="w3-xlarge"> David Huckfelt
+    </p>
+
+    <img src="images/danceicon.jpg" id="change3" class="w3-image w3-hide-large w3-round" style="aspect-ratio: 1;object-fit: cover;object-position: center; " width="" height="">
+  
+    
+  </header>
+<div style="margin-top: 50px;" class="w3-center">
+
+  <p style="margin: 5px 0; font-weight: bold;">Oak Center General Store</p>
+  <p style="margin: 5px 0;">Saturday, January 16 @ 7:30pm</p>
+
+  <button 
+    onclick="location.href='https://square.link/u/8kaCswt6'" 
+    type="button" 
+    class="w3-button w3-green w3-round-large w3-padding-large w3-hover-gold"
+    style="font-size:16px; min-width:200px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <i class="fa fa-ticket"></i> Buy Tickets
+  </button>
+
+</div>
+
+  
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>overview</h2>
+    <hr class="w3-opacity">
+    <h4>The Talent</h4>
+    <p>David Huckfelt is a singer/ lyricist /folk-activist whose poetic sensibilities and songs of no-spiritual-surrender have earned him a cult following in the darker hollows far off the beaten path of the music business’s rushing roar.  An Iowa native and former theology student, Huckfelt attended the prestigious Iowa Writers Workshop before dropping hold of academic and theoretical pursuits and turning his attention to songwriting and performing.  With improvisational mastery and a stubborn insistence of remaining in the moment with his audience, Huckfelt’s folk shows have earned him a devoted following from small-town opera houses & theaters to national festival stages like Hardly Strictly Bluegrass, Edmonton and Calgary Folk Fests, and the legendary First Avenue mainroom. Sharing stages with artists as diverse as Mavis Staples, Bon Iver, Emmylou Harris, Arcade Fire, Calexico, Gregory Alan Isakov, Iris Dement & more, Huckfelt’s roots run deep as a folk singer steeped in the tradition of performing other artists’ songs.  An early encounter and collaboration with legendary Native American poet John Trudell introduced Huckfelt as friend & ally to an array of Indigenous artists & activists including Keith Secola, Louise Erdrich, Winona LaDuke, Quiltman & more.  He also served as musical director and performer at “Water Is Life” Music + Resistance Festival in Duluth, MN and his songs appear in the new AMC TV series “Dark Winds” produced by Robert Redford & George R.R. Martin.   A founding frontman of Minneapolis indie-folk cult favorites The Pines, with roots in the same Midwestern soil that produced legendary folk singers like John Prine and Greg Brown, David's new solo work preserves a rugged optimism that blasts through layers of darkness in real time with songs that speak volumes, soft & clear.
+
+
+    </p>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0jLiFdmYLVslq2YKIhAxsv?utm_source=generator&si=e4c484767a034e5f" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<h4>Ticketing</h4>
+    <p>$21.50 online <br>$24.00 at the door</p>
+     <h4>Agenda</h4>
+    
+    <ul>
+      <li>6:30-7:30 Doors</li>
+      <li>7:30-9:30 Music</li>
+     
+    </ul>
+    <h4>Location</h4>
+    <p>Address: 67011 hwy 63, Lake City, MN 55041</p>
+    <h4>Parking</h4>
+    <p>ONLY PARK ON EAST SIDE OF 82 (general store side of the gravel road)</p>
+    <p>refer to picture on homepage if confused</p>
+    <h4>Accessibility</h4>
+    <p>The music venue itself is only accessed via staircase. The show will be played over speakers on the main floor for anyone who cannot or wishes not to go upstairs. <br><br>Tickets are required only for guests that go upstairs.</p>
+
+    <h4>Any questions?</h4>
+   <p> phone: 616-260-4924 <br>
+    oakcentergeneralstoremn@gmail.com</p>
+    
+    
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/UNMrshf0r5Q?si=GulmYkBsGQ9Q7BDJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
+  <!-- End Portfolio Section -->
+  </div>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
